@@ -67,7 +67,7 @@ if __name__ == '__main__':
     login_xpath = '/html/body/qz-main/qz-nav/header/div[1]/a/img'
     url = 'https://10.2.223.6'
     account = 'bs_test'
-    passwd = 'WINlove0065888'
+    passwd = 'xxxx'
     #ris
     login(flag_xpath, user_xpath, lpwd_xpath, submit_xpath, login_xpath, url, account, passwd)
 
@@ -82,8 +82,8 @@ if __name__ == '__main__':
     newpwd_xpath = '/html/body/qz-main/ng-outlet/qz-loginuser/main/ng-outlet/qz-basic-info/section/div/qz-tab-content/div/ng-transclude/qz-tab-pane/div/ng-transclude/ng-outlet/qz-update-password/form/div[2]/div/input'
     verify_xpath = '/html/body/qz-main/ng-outlet/qz-loginuser/main/ng-outlet/qz-basic-info/section/div/qz-tab-content/div/ng-transclude/qz-tab-pane/div/ng-transclude/ng-outlet/qz-update-password/form/div[3]/div/input'
     done_xpath = '/html/body/qz-main/ng-outlet/qz-loginuser/main/ng-outlet/qz-basic-info/section/div/qz-tab-content/div/ng-transclude/qz-tab-pane/div/ng-transclude/ng-outlet/qz-update-password/form/div[4]/div/button[2]'
-    oldpwd = 'WINlove0065888'
-    newpwd = 'WINlove006587'
+    oldpwd = 'xxxxx'
+    newpwd = 'xxx'
     suc_xpath = '/html/body/qz-main/div[5]/div'
     exit_xpath = '/html/body/qz-main/qz-nav/header/div[2]/div[2]/menu/ul/li[4]/a'
     changeandverify(setting_xpath, center_xpath, pwd_xpath, start_xpath, oldpwd_xpath, newpwd_xpath, verify_xpath,done_xpath, newpwd, oldpwd,suc_xpath,exit_xpath)
